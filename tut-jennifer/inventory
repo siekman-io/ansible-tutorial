@@ -1,5 +1,5 @@
 #####################################################
-# ANSIBLE-PLAYBOOK pikkestijn
+# ANSIBLE-PLAYBOOK tut-jennifer
 #####################################################
 #        _      _                            _
 #    ___(_) ___| | ___ __ ___   __ _ _ __   (_) ___
@@ -12,13 +12,8 @@
 #                https://siekman.io
 #
 #####################################################
-## Ansible.cfg: pikkestijn
+## Inventory: tut-jennifer
 #####################################################
-
-
-[defaults]
-# Use host file in folder when use a default inventory just comment it out
-inventory = ./inventory
-
-# Host key checking (off for networkdevices and dev)
-# host_key_checking = False
+---
+[all]
+# localhost

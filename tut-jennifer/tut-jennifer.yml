@@ -1,5 +1,5 @@
 #####################################################
-# ANSIBLE-PLAYBOOK pikkestijn
+# ANSIBLE-PLAYBOOK tut-jennifer
 #####################################################
 #        _      _                            _
 #    ___(_) ___| | ___ __ ___   __ _ _ __   (_) ___
@@ -12,6 +12,23 @@
 #                https://siekman.io
 #
 #####################################################
-## DEFAULTS : pikkestijn
+## PLAYBOOK: tut-jennifer
 #####################################################
 ---
+
+ - name: tut-jennifer f... like an animal
+   hosts: all
+   become: false
+   become_user: root
+   vars:
+     favcolor: blue
+   vars_files:
+     - ./vars/main.yml
+
+   tasks:      
+     - name: Include tasks
+       include_tasks: ./tasks/main.yml
+
+   roles:      
+     - name: Include roles
+       include_roles: ./roles/main.yml
