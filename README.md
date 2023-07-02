@@ -53,7 +53,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://siekman.io/github/ansible-tutorial/Youtube tutorials siekman.io/scr_Youtube tutorials siekman.io.jpg)
 
 here a description soon
 
